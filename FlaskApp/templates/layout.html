@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<title>FlaskApp</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+<div class="container">
+  <div class="row header-box">
+    <ul class="nav nav-pills pull-right">
+      {% if not session.logged_in %}
+        <li><a href="{{ url_for('login') }}">Login</a></button>
+      {% else %}
+        <li><a href="{{ url_for('logout') }}">Logout</a></button>
+      {% endif %}
+    </ul>
+    <a href="{{ url_for('show_entries') }}">
+      <h1 class=text-muted>Flask Blogger!</h1>
+    </a>
+  </div>
+  <div class="row">
+    {% for message in get_flashed_messages() %}
+      <div class="alert alert-info">{{ message }}</div>
+    {% endfor %}
+  </div>
+  <div class="row">
+    {% block body %}
+    {% endblock %}
+  </div>
+</div>

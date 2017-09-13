@@ -1,0 +1,3 @@
+graft FlaskApp/templates
+graft FlaskApp/static
+include FlaskApp/schema.sql

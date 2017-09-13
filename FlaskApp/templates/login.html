@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="row">
+  <h2>Login</h2>
+  {% if error %}<div class="alert alert-danger"><strong>Error:</strong> {{ error }}{% endif %}</div>
+  <form action="{{ url_for('login') }}" method="post">
+    <dl>
+      <dt>Username:</dt>
+      <dd><input class="form-control" type="text" name="username"></dd>
+      <dt>Password:</dt>
+      <dd><input class="form-control" type="password" name="password"></dd>
+      <dd><input class="btn btn-primary" type="submit" value="Login"></dd>
+    </dl>
+  </form>
+</div>
+{% endblock %}

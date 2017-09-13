@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+FlaskApp/FlaskApp.py
+FlaskApp/__init__.py
+FlaskApp/schema.sql
+FlaskApp.egg-info/PKG-INFO
+FlaskApp.egg-info/SOURCES.txt
+FlaskApp.egg-info/dependency_links.txt
+FlaskApp.egg-info/requires.txt
+FlaskApp.egg-info/top_level.txt
