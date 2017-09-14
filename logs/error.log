@@ -648,3 +648,413 @@
 [Wed Sep 13 19:37:47.713330 2017] [wsgi:error] [pid 27587] [client 209.54.86.83:50492]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 76, in add_entry, referer: http://www.zachflask.tk/
 [Wed Sep 13 19:37:47.713333 2017] [wsgi:error] [pid 27587] [client 209.54.86.83:50492]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
 [Wed Sep 13 19:37:47.713334 2017] [wsgi:error] [pid 27587] [client 209.54.86.83:50492] OperationalError: unable to open database file, referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487314 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961] [2017-09-13 22:48:16,485] ERROR in app: Exception on /add [POST], referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487353 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487357 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487359 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487362 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487364 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487366 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487368 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487370 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487372 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487374 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487376 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487378 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 76, in add_entry, referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487380 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Wed Sep 13 22:48:16.487382 2017] [wsgi:error] [pid 28480] [client 209.54.86.83:51961] OperationalError: unable to open database file, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538568 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433] [2017-09-13 23:56:45,537] ERROR in app: Exception on /add [POST], referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538604 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538608 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538610 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538613 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538630 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538632 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538634 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538636 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538638 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538640 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538642 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538643 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 76, in add_entry, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538645 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:56:45.538647 2017] [wsgi:error] [pid 29565] [client 209.54.86.83:52433] OperationalError: unable to open database file, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742857 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436] [2017-09-13 23:57:31,742] ERROR in app: Exception on /add [POST], referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742895 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742898 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742900 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742903 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742905 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742907 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742909 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742911 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742913 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742915 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742927 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742929 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 76, in add_entry, referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742931 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Wed Sep 13 23:57:31.742933 2017] [wsgi:error] [pid 29569] [client 209.54.86.83:52436] OperationalError: unable to open database file, referer: http://www.zachflask.tk/
+[Thu Sep 14 01:42:37.907658 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975] [2017-09-14 01:42:37,905] ERROR in app: Exception on /add [POST], referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907730 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975] Traceback (most recent call last):, referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907734 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907736 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]     response = self.full_dispatch_request(), referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907739 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907741 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]     rv = self.handle_user_exception(e), referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907743 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907745 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]     reraise(exc_type, exc_value, tb), referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907747 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907749 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]     rv = self.dispatch_request(), referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907751 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907753 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907755 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 76, in add_entry, referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907759 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975]     [request.form['title'], request.form['text']]), referer: http://zachflask.tk/
+[Thu Sep 14 01:42:37.907761 2017] [wsgi:error] [pid 29566] [client 184.250.130.36:59975] OperationalError: unable to open database file, referer: http://zachflask.tk/
+[Thu Sep 14 07:37:32.400119 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672] [2017-09-14 07:37:32,399] ERROR in app: Exception on /add [POST], referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400160 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400164 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400167 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400184 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400186 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400188 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400190 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400192 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400194 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400195 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400197 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400199 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 76, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400201 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:37:32.400203 2017] [wsgi:error] [pid 31777] [client 128.206.251.96:34672] OperationalError: unable to open database file, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656252 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001] mod_wsgi (pid=31973): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'., referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656307 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656325 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656719 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]     return self.wsgi_app(environ, start_response), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656732 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656746 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]     response = self.handle_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656752 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656760 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656764 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656771 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656784 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656791 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656795 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656801 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656806 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656811 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656815 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656822 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656826 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 80, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656863 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:41:39.656881 2017] [wsgi:error] [pid 31973] [client 128.206.251.96:58001] OperationalError: unable to open database file, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062106 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066] mod_wsgi (pid=32121): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'., referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062173 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062193 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062584 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]     return self.wsgi_app(environ, start_response), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062596 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062610 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]     response = self.handle_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062616 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062624 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062630 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062637 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062642 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062659 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062664 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062671 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062675 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062681 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062686 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062692 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062698 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 80, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062734 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:50:07.062752 2017] [wsgi:error] [pid 32121] [client 128.206.251.96:28066] OperationalError: unable to open database file, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.652461 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811] mod_wsgi (pid=32153): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'., referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.652548 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.652575 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653043 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]     return self.wsgi_app(environ, start_response), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653056 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653072 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]     response = self.handle_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653079 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653088 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653093 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653101 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653106 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653123 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653129 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653135 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653140 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653146 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653150 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653157 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653164 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 80, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653203 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Thu Sep 14 07:53:55.653224 2017] [wsgi:error] [pid 32153] [client 128.206.251.96:8811] OperationalError: database is locked, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403072 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381] mod_wsgi (pid=32699): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'., referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403184 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403204 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403599 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]     return self.wsgi_app(environ, start_response), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403612 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403626 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]     response = self.handle_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403632 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403640 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403645 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403652 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403657 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403664 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403678 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403686 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403690 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403697 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403701 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403707 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403712 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 80, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403748 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:05.403765 2017] [wsgi:error] [pid 32699] [client 128.206.251.96:7381] OperationalError: unable to open database file, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.986476 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921] mod_wsgi (pid=32700): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'., referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.986561 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.986589 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987065 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]     return self.wsgi_app(environ, start_response), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987078 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987129 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]     response = self.handle_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987138 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987147 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987152 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987159 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987164 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987171 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987176 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987194 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987199 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987205 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987210 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987216 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987222 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 80, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987263 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:16:13.987285 2017] [wsgi:error] [pid 32700] [client 128.206.251.96:20921] OperationalError: database is locked, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359327 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510] mod_wsgi (pid=32696): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'., referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359406 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359434 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359891 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]     return self.wsgi_app(environ, start_response), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359903 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359918 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]     response = self.handle_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359924 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359932 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359937 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359944 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359949 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359956 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359960 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359978 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359983 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359989 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.359994 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.360000 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.360008 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 80, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.360052 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:18:54.360076 2017] [wsgi:error] [pid 32696] [client 128.206.251.96:30510] OperationalError: database is locked, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.795717 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355] mod_wsgi (pid=408): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'., referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.795780 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.795799 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796189 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]     return self.wsgi_app(environ, start_response), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796202 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796216 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]     response = self.handle_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796222 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796230 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796236 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796243 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796248 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796256 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796261 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796267 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796283 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796291 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796296 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796302 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796307 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 80, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796344 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:20:34.796363 2017] [wsgi:error] [pid 408] [client 128.206.251.96:30355] OperationalError: unable to open database file, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:27:45.540216 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891] mod_wsgi (pid=412): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'.
+[Thu Sep 14 08:27:45.540282 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891] Traceback (most recent call last):
+[Thu Sep 14 08:27:45.540302 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__
+[Thu Sep 14 08:27:45.540693 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]     return self.wsgi_app(environ, start_response)
+[Thu Sep 14 08:27:45.540704 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+[Thu Sep 14 08:27:45.540718 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]     response = self.handle_exception(e)
+[Thu Sep 14 08:27:45.540724 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+[Thu Sep 14 08:27:45.540732 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]     reraise(exc_type, exc_value, tb)
+[Thu Sep 14 08:27:45.540737 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Sep 14 08:27:45.540744 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]     response = self.full_dispatch_request()
+[Thu Sep 14 08:27:45.540749 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Sep 14 08:27:45.540756 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]     rv = self.handle_user_exception(e)
+[Thu Sep 14 08:27:45.540760 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Sep 14 08:27:45.540767 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]     reraise(exc_type, exc_value, tb)
+[Thu Sep 14 08:27:45.540772 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Sep 14 08:27:45.540779 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]     rv = self.dispatch_request()
+[Thu Sep 14 08:27:45.540783 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Sep 14 08:27:45.540790 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Sep 14 08:27:45.540807 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 69, in show_entries
+[Thu Sep 14 08:27:45.540851 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]     db = get_db()
+[Thu Sep 14 08:27:45.540860 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 37, in get_db
+[Thu Sep 14 08:27:45.540870 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]     g.sqlite_db = connect_db()
+[Thu Sep 14 08:27:45.540875 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 29, in connect_db
+[Thu Sep 14 08:27:45.540882 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891]     rv = sqlite3.connect('FlaskApp.db', timeout=5)
+[Thu Sep 14 08:27:45.540899 2017] [wsgi:error] [pid 412] [client 128.206.251.96:10891] OperationalError: unable to open database file
+[Thu Sep 14 08:27:46.102161 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773] mod_wsgi (pid=417): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'.
+[Thu Sep 14 08:27:46.102218 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773] Traceback (most recent call last):
+[Thu Sep 14 08:27:46.102237 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__
+[Thu Sep 14 08:27:46.102626 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]     return self.wsgi_app(environ, start_response)
+[Thu Sep 14 08:27:46.102637 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+[Thu Sep 14 08:27:46.102651 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]     response = self.handle_exception(e)
+[Thu Sep 14 08:27:46.102656 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+[Thu Sep 14 08:27:46.102665 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]     reraise(exc_type, exc_value, tb)
+[Thu Sep 14 08:27:46.102670 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Sep 14 08:27:46.102677 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]     response = self.full_dispatch_request()
+[Thu Sep 14 08:27:46.102681 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Sep 14 08:27:46.102688 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]     rv = self.handle_user_exception(e)
+[Thu Sep 14 08:27:46.102693 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Sep 14 08:27:46.102700 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]     reraise(exc_type, exc_value, tb)
+[Thu Sep 14 08:27:46.102704 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Sep 14 08:27:46.102711 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]     rv = self.dispatch_request()
+[Thu Sep 14 08:27:46.102715 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Sep 14 08:27:46.102722 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Sep 14 08:27:46.102729 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 69, in show_entries
+[Thu Sep 14 08:27:46.102770 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]     db = get_db()
+[Thu Sep 14 08:27:46.102779 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 37, in get_db
+[Thu Sep 14 08:27:46.102802 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]     g.sqlite_db = connect_db()
+[Thu Sep 14 08:27:46.102808 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 29, in connect_db
+[Thu Sep 14 08:27:46.102815 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773]     rv = sqlite3.connect('FlaskApp.db', timeout=5)
+[Thu Sep 14 08:27:46.102831 2017] [wsgi:error] [pid 417] [client 128.206.251.96:41773] OperationalError: unable to open database file
+[Thu Sep 14 08:31:11.492939 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935] mod_wsgi (pid=414): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'.
+[Thu Sep 14 08:31:11.493004 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935] Traceback (most recent call last):
+[Thu Sep 14 08:31:11.493023 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__
+[Thu Sep 14 08:31:11.493409 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]     return self.wsgi_app(environ, start_response)
+[Thu Sep 14 08:31:11.493419 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+[Thu Sep 14 08:31:11.493433 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]     response = self.handle_exception(e)
+[Thu Sep 14 08:31:11.493439 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+[Thu Sep 14 08:31:11.493448 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]     reraise(exc_type, exc_value, tb)
+[Thu Sep 14 08:31:11.493453 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Sep 14 08:31:11.493460 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]     response = self.full_dispatch_request()
+[Thu Sep 14 08:31:11.493465 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Sep 14 08:31:11.493472 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]     rv = self.handle_user_exception(e)
+[Thu Sep 14 08:31:11.493477 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Sep 14 08:31:11.493485 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]     reraise(exc_type, exc_value, tb)
+[Thu Sep 14 08:31:11.493489 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Sep 14 08:31:11.493496 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]     rv = self.dispatch_request()
+[Thu Sep 14 08:31:11.493501 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Sep 14 08:31:11.493508 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Sep 14 08:31:11.493515 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 69, in show_entries
+[Thu Sep 14 08:31:11.493557 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]     db = get_db()
+[Thu Sep 14 08:31:11.493566 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 37, in get_db
+[Thu Sep 14 08:31:11.493576 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]     g.sqlite_db = connect_db()
+[Thu Sep 14 08:31:11.493582 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 29, in connect_db
+[Thu Sep 14 08:31:11.493602 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935]     rv = sqlite3.connect('FlaskApp.db', timeout=5)
+[Thu Sep 14 08:31:11.493619 2017] [wsgi:error] [pid 414] [client 128.206.251.96:10935] OperationalError: unable to open database file
+[Thu Sep 14 08:31:34.992241 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190] mod_wsgi (pid=692): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'.
+[Thu Sep 14 08:31:34.992307 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190] Traceback (most recent call last):
+[Thu Sep 14 08:31:34.992326 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__
+[Thu Sep 14 08:31:34.992705 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]     return self.wsgi_app(environ, start_response)
+[Thu Sep 14 08:31:34.992716 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app
+[Thu Sep 14 08:31:34.992729 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]     response = self.handle_exception(e)
+[Thu Sep 14 08:31:34.992734 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception
+[Thu Sep 14 08:31:34.992742 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]     reraise(exc_type, exc_value, tb)
+[Thu Sep 14 08:31:34.992746 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app
+[Thu Sep 14 08:31:34.992752 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]     response = self.full_dispatch_request()
+[Thu Sep 14 08:31:34.992757 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+[Thu Sep 14 08:31:34.992763 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]     rv = self.handle_user_exception(e)
+[Thu Sep 14 08:31:34.992767 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception
+[Thu Sep 14 08:31:34.992773 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]     reraise(exc_type, exc_value, tb)
+[Thu Sep 14 08:31:34.992778 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+[Thu Sep 14 08:31:34.992784 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]     rv = self.dispatch_request()
+[Thu Sep 14 08:31:34.992788 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request
+[Thu Sep 14 08:31:34.992794 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]     return self.view_functions[rule.endpoint](**req.view_args)
+[Thu Sep 14 08:31:34.992800 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 69, in show_entries
+[Thu Sep 14 08:31:34.992839 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]     db = get_db()
+[Thu Sep 14 08:31:34.992847 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 37, in get_db
+[Thu Sep 14 08:31:34.992856 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]     g.sqlite_db = connect_db()
+[Thu Sep 14 08:31:34.992860 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 29, in connect_db
+[Thu Sep 14 08:31:34.992867 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190]     rv = sqlite3.connect('FlaskApp.db', timeout=5)
+[Thu Sep 14 08:31:34.992883 2017] [wsgi:error] [pid 692] [client 128.206.251.96:56190] OperationalError: unable to open database file
+[Thu Sep 14 08:33:06.303527 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427] mod_wsgi (pid=692): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'., referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303594 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303615 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303647 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]     return self.wsgi_app(environ, start_response), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303653 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303661 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]     response = self.handle_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303666 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303673 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303677 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303684 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303688 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303694 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303698 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303704 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303708 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303715 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303719 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303725 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303730 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 79, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303799 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]     db = get_db(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303807 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 37, in get_db, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303815 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]     g.sqlite_db = connect_db(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303820 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 29, in connect_db, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303833 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427]     # rv = sqlite3.connect('FlaskApp.db', timeout=5), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:33:06.303848 2017] [wsgi:error] [pid 692] [client 128.206.251.96:48427] OperationalError: unable to open database file, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.651799 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284] mod_wsgi (pid=907): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'., referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.651868 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.651889 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652299 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]     return self.wsgi_app(environ, start_response), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652312 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652325 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]     response = self.handle_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652332 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652339 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652344 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652351 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652356 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652362 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652367 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652373 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652378 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652384 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652389 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652396 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652403 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 81, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652439 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:36:17.652468 2017] [wsgi:error] [pid 907] [client 128.206.251.96:27284] OperationalError: unable to open database file, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.841363 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730] mod_wsgi (pid=887): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'., referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.841445 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.841473 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.841933 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]     return self.wsgi_app(environ, start_response), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.841947 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.841963 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]     response = self.handle_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.841970 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.841978 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.841984 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.841991 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.841996 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.842003 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.842008 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.842014 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.842019 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.842025 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.842030 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.842037 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.842044 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 81, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.842085 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:43:48.842106 2017] [wsgi:error] [pid 887] [client 128.206.251.96:35730] OperationalError: database is locked, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978209 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567] mod_wsgi (pid=1175): Exception occurred processing WSGI script '/var/www/FlaskApp/flaskapp.wsgi'., referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978277 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567] Traceback (most recent call last):, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978298 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1997, in __call__, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978692 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]     return self.wsgi_app(environ, start_response), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978705 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1985, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978720 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]     response = self.handle_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978726 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1540, in handle_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978734 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978739 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1982, in wsgi_app, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978746 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]     response = self.full_dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978751 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1614, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978758 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]     rv = self.handle_user_exception(e), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978762 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1517, in handle_user_exception, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978769 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]     reraise(exc_type, exc_value, tb), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978773 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1612, in full_dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978780 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]     rv = self.dispatch_request(), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978785 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1598, in dispatch_request, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978791 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]     return self.view_functions[rule.endpoint](**req.view_args), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978798 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]   File "/var/www/FlaskApp/FlaskApp/FlaskApp.py", line 81, in add_entry, referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978835 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567]     [request.form['title'], request.form['text']]), referer: http://www.zachflask.tk/
+[Thu Sep 14 08:45:05.978854 2017] [wsgi:error] [pid 1175] [client 128.206.251.96:32567] OperationalError: unable to open database file, referer: http://www.zachflask.tk/

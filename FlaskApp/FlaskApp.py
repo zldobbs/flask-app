@@ -8,20 +8,25 @@ from flask import Flask, request, session, g, redirect, url_for, abort, \
 app = Flask(__name__) # Create the instance
 app.config.from_object(__name__) # Load config from this file
 
+# Define root directory
+PROJECT_ROOT = os.path.dirname(os.path.realpath(__file__))
+
 # Load default config and override config from an environment variable
 app.config.update(dict(
-	DATABASE='/var/www/FlaskApp/FlaskApp/FlaskApp.db',
+	DATABASE=os.path.join(PROJECT_ROOT, 'FlaskApp.db'),
 	SECRET_KEY='development key',
 	USERNAME='admin',
-	PASSWORD='password'
+	PASSWORD='password',
+	DEBUG=True
 ))
-app.config.from_envvar('FLASKR_SETTINGS', silent=True)
+# app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 
 #------------------ Helper Functions
 # Create a method that allows easy connections to the SQLite Database
 def connect_db():
 	"""Connects to the specific database."""
-	rv = sqlite3.connect(app.config['DATABASE'])
+	rv = sqlite3.connect(app.config['DATABASE'], timeout=5)
+	# rv = sqlite3.connect('FlaskApp.db', timeout=5)
 	rv.row_factory = sqlite3.Row
 	return rv
 
@@ -48,7 +53,7 @@ def init_db():
 		db.cursor().executescript(f.read())
 	db.commit()
 
-@app.cli.command('initdb') 
+@app.cli.command('initdb')
 # Binds the following method to the CLI command 'initdb'
 def initdb_command():
 	"""Initializes the database."""
@@ -69,8 +74,8 @@ def show_entries():
 # View for adding a new template.
 @app.route('/add', methods=['POST'])
 def add_entry():
-	if not session.get('logged_in'):
-		abort(401)
+	#if not session.get('logged_in'):
+		#abort(401)
 	db = get_db()
 	db.execute('insert into entries (title, text) values (?, ?)',
 			[request.form['title'], request.form['text']])
@@ -99,5 +104,3 @@ def logout():
 	session.pop('logged_in', None)
 	flash('You were logged out')
 	return redirect(url_for('show_entries'))
-
-

@@ -22,3 +22,8 @@ input, textarea {
 a:hover {
   text-decoration: none;
 }
+
+.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

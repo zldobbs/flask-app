@@ -1,7 +1,19 @@
 {% extends "layout.html" %}
 {% block body %}
-  {% if session.logged_in %}
   <div class="row">
+    <h3>The Flask Blogger! is a sample application developed using the Python microframework
+      <a href="http://flask.pocoo.org">Flask.</a> It is modeled after the the sample application
+      Flaskr found on the same site. Feel free to add a blog post while you're here, the login credintials
+      are 'admin' and 'password' - just try to keep the content PG ;)
+    </h3>
+    <div class="text-center">
+      <h4><a href="https://github.com/zldobbs/flask-app">Source Code</a> |
+        Contact the developer - <a href="mailto:dobbszach@gmail.com">Zach Dobbs</a>
+      </h4>
+    </div>
+  </div>
+  {% if session.logged_in %}
+  <div class="row jumbotron">
     <form action="{{ url_for('add_entry') }}" method="post">
       <dl>
         <dt>Title:</dt>
@@ -14,6 +26,7 @@
   </div>
   {% endif %}
   <div class="row">
+    <h1 class="text-muted">Blog Entries</h1>
     <ul class="list-group">
       {% for entry in entries %}
         <li class="list-group-item"><h2>{{ entry.title }}</h2>{{ entry.text|safe }}</li>
