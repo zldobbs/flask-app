@@ -13,7 +13,7 @@ PROJECT_ROOT = os.path.dirname(os.path.realpath(__file__))
 
 # Load default config and override config from an environment variable
 app.config.update(dict(
-	DATABASE=os.path.join(PROJECT_ROOT, 'FlaskApp.db'),
+	DATABASE=os.path.join(PROJECT_ROOT, 'tmp/FlaskApp.db'),
 	SECRET_KEY='development key',
 	USERNAME='admin',
 	PASSWORD='password',
