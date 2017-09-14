@@ -10,7 +10,7 @@ app.config.from_object(__name__) # Load config from this file
 
 # Load default config and override config from an environment variable
 app.config.update(dict(
-	DATABASE=os.path.join(app.root_path, 'FlaskApp.db'),
+	DATABASE='/var/www/FlaskApp/FlaskApp/FlaskApp.db',
 	SECRET_KEY='development key',
 	USERNAME='admin',
 	PASSWORD='password'
@@ -27,7 +27,7 @@ def connect_db():
 
 # Open a new database connection if none have been created
 def get_db():
-	"""Opens a new database connection if there is none yet for the current 	application context."""
+	"""Opens a new database connection if there is none yet for the current	application context."""
 	if not hasattr(g, 'sqlite_db'):
 		g.sqlite_db = connect_db()
 	return g.sqlite_db

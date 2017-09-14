@@ -4,5 +4,7 @@ setup (
 	name='FlaskApp',
 	packages=['FlaskApp'],
 	include_package_date=True,
-	install_requires=['FlaskApp',],
+	install_requires=[
+		'flask',
+	],
 )
